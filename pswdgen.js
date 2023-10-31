@@ -1,11 +1,11 @@
 "use strict";
 
-const elementName = document.getElementById("name");
-const elementSurname = document.getElementById("surname");
-const elementColor = document.getElementById("color");
-const elementNumber = document.getElementById("number");
+const elementPassword = document.getElementById("password");
 
-console.log(elementName);
-console.log(elementSurname);
-console.log(elementColor);
-console.log(elementNumber);
+const elementName = prompt("inserisci il tuo nome");
+const elementSurname = prompt("inserisci il tuo cognome");
+const elementColor = prompt("inserisci il tuo colore preferito");
+const elementNumber = prompt("inserisci il tuo numero preferito");
+
+elementPassword.innerHTML =
+  elementName + elementSurname + elementColor + elementNumber;
