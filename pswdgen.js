@@ -6,7 +6,6 @@ const elementName = prompt("inserisci il tuo nome");
 const elementSurname = prompt("inserisci il tuo cognome");
 const elementColor = prompt("inserisci il tuo colore preferito");
 const elementNumber = Math.floor(Math.random() * 100);
-// const elementNumber = prompt("inserisci il tuo numero preferito");
 
 console.log("il tuo nome: " + elementName);
 console.log("il tuo cognome: " + elementSurname);
